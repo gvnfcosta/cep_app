@@ -90,6 +90,7 @@ class _HomePageState extends State<HomePage> {
                   'Logradouro: ${enderecoModel?.logradouro} ${enderecoModel?.complemento} ${enderecoModel?.cep}',
                 ),
               ),
+              enderecoModel != null ? Text(enderecoModel!.logradouro) : Text(''), 
             ],
           ),
         ),
